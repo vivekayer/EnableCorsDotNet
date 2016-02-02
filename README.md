@@ -3,7 +3,7 @@ A HTTP module that implements dynamic CORS support
 
 Instructions:
 
-1.	Copy dll to the bin folder of your service.
+1.	Build and copy the dll to the bin folder of your service.
 2.	Add the module in web config.
     <system.webServer>
       <modules>
