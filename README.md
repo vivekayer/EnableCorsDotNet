@@ -7,7 +7,7 @@ Instructions:
 2.	Add the module in web config.
     <system.webServer>
       <modules>
-        <add name="CorsModule" type="cScape.CIPD.Cors.CorsModule"/>
+        <add name="CorsModule" type="EnableCorsDotNet.CorsModule"/>
       </modules>
     </system.webServer>
 3.	The module looks for an app setting that takes a comma separated list of allowed domains. For example:
